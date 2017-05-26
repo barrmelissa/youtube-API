@@ -2,6 +2,10 @@
 
 <li><a href="#aboutThisGuide">About the Guide</a></li>
 
+## AboutThisGuide
+
+
+
 You can use the [editor on GitHub](https://github.com/barrmelissa/youtubeAPI/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
@@ -37,9 +41,7 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-
-] 
+k 
 			<nav class="navigation">
 			<p> <b>Navigation</b> </p>
 			<ul class="menu">	
@@ -72,10 +74,10 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 			<h4>Why YouTube API?</h4>
 					<p><center>I chose to research and learn about the YouTube API because it is a useful skill to have when building websites. YouTube videos are a handy tool, whether it be informational or about cats doing funny things. While this is only a basic overview of the YouTube API, more information can be found at <a href="https://developers.google.com/youtube/">https://developers.google.com/youtube/</a>. Credit given to <a href="https://developers.google.com/youtube/iframe_api_reference">https://developers.google.com/youtube/iframe_api_reference</a> for certain code excerpts.</center></p>
 					
-					<br><div class="blackBar"></div><br>
-					
-					<h4>What is this API?</h4>
-					<p><center>We will be using the IFrame Player API in order to embed videos to our own applications. The IFrame Player API posts content directly to a <code>&lt;iframe&gt;</code> tag on your page. This is different from JavaScript or Flash as they both involve embedding a Flash object, which mobile devices do not support.
+				<br><div class="blackBar"></div><br>
+				
+				<h4>What is this API?</h4>
+				<p><center>We will be using the IFrame Player API in order to embed videos to our own applications. The IFrame Player API posts content directly to a <code>&lt;iframe&gt;</code> tag on your page. This is different from JavaScript or Flash as they both involve embedding a Flash object, which mobile devices do not support.
 					<br><br>
 					This guide will discuss the IFrame API in greater detail, such as how to embed a video, how to use JavaScript functions to control the videos, and adding event listeners for certain events.</center></p>
 					
@@ -98,7 +100,6 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 		
 		<br><br>
 		
-		<!-- Embedding a video -->	
 		<div class="outer">
 			<div id="embedVideo"></div>
 				<div class="inner-heading">	
