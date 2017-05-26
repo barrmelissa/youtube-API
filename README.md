@@ -4,6 +4,23 @@
 
 ## AboutThisGuide
 
+<div id="wrapper">
+	<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">Mountain Project API</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li  id ="home"><a href="#" accesskey="1" title="">Home</a></li>
+				<li id="start" ><a href="#" accesskey="2" title="">Getting Started</a></li>
+				<li id="info" class="current_page_item"><a href="#" accesskey="3" title="">Info</a></li>
+				<li id="using" ><a href="#" accesskey="4" title="">API Code</a></li>
+				<li id="end"><a href="#" accesskey="5" title="">Tying It All Together</a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
 
 
 You can use the [editor on GitHub](https://github.com/barrmelissa/youtubeAPI/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
