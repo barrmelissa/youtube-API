@@ -130,7 +130,7 @@ Released   : 20140309
 						<li>id: The route id that was used in the request.</li>
 						<li>imgMed: A medium sized image of the route.</li>
 						<li>imgSmall: A small image of the route.</li>
-						<li>location: An array that contains information about the route's location. The array can have a variable length but the first element is the route's state and the second element is the route's city. The other elements are additional information.</li>
+						<li>location: An array that contains information about the route's location. The array can have a variable length but the first lement is the route's state and the second element is the route's city. The other elements are additional information.</li>
 						<li>name: The routes name.</li>
 						<li>pitches: The number of climbing pitches on the route.</li>
 						<li>rating: The climbing grade for the route.</li>
