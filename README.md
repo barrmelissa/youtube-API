@@ -52,28 +52,24 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 				<li><a href="#exampleVideo">Example Video</a></li>
 			</ul>
 		</nav>
-		
-		<!-- Title div -->
 		<div class="outer"><br>
-			<div class="inner-title">
-				<br>
-				<center><h1>The Basics of YouTube API</h1>
-				<h4><font>By: Melissa Barr </font></h4></center>
-				<br>
-			</div>
-		</div>
+	<div class="inner-title">
+	<br>
+	<center><h1>The Basics of YouTube API</h1>
+	<h4><font>By: Melissa Barr </font></h4></center>
+	<br>
+	</div>
+	</div>
 		
-		<br>
-		
-		<!-- About this Guide -->	
-		<div class="outer">
+	<br>
+				<div class="outer">
 			<div id="aboutThisGuide"></div>
 				<div class="inner-heading">	
 					<h3><br>About This Guide<br><br></h3>
 				</div>
 				<div class="inner-body">
 					
-					<h4>Why YouTube API?</h4>
+			<h4>Why YouTube API?</h4>
 					<p><center>I chose to research and learn about the YouTube API because it is a useful skill to have when building websites. YouTube videos are a handy tool, whether it be informational or about cats doing funny things. While this is only a basic overview of the YouTube API, more information can be found at <a href="https://developers.google.com/youtube/">https://developers.google.com/youtube/</a>. Credit given to <a href="https://developers.google.com/youtube/iframe_api_reference">https://developers.google.com/youtube/iframe_api_reference</a> for certain code excerpts.</center></p>
 					
 					<br><div class="blackBar"></div><br>
