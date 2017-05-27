@@ -142,9 +142,9 @@ function closeNav() {
       var player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
-          height: '390',
-          width: '640',
-          videoId: 'gJLIiF15wjQ',
+          height: '430',
+          width: '700',
+          videoId: '0HTexqxo1og',
           events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
