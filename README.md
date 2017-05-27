@@ -20,8 +20,9 @@
 <head>
 <style>
 body {
-    margin: 50;
+    margin: 0;
     font-family: 'Lato', sans-serif;
+    width: 50;
 }
 
 .overlay {
