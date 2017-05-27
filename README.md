@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <meta charset="UTF-8">
 <link rel="stylesheet" type="text/css" href="style.css">
 	
@@ -22,7 +20,7 @@
 <head>
 <style>
 body {
-    margin: 0;
+    margin: 50;
     font-family: 'Lato', sans-serif;
 }
 
