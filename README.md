@@ -6,11 +6,11 @@
 <html lang="en-us">
 
 <head>
-<!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>YouTube API Home</title>
     <meta name="heywords" content="" />
     <meta name="description" content="content1"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=20">
     <meta name="theme-color" content="#157878">
     <link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
     <link href="default.css" rel="stylesheet" type="text/css" media="all" />
