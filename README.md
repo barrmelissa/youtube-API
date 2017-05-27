@@ -141,12 +141,33 @@ function closeNav() {
 	<div class="outer">
 	<div id="aboutThisGuide"></div>
 			<div class="inner-heading">	
-				<h3><br />About This Guide<br /><br /></h3>
+				<h3><br />Introduction<br /><br /></h3>
 			</div>
 			<div class="inner-body">
 					
-		<h5>Why YouTube API?</h5>
-		<p><center>I choose to do my project on the iFrame YouTube API because it is a tool that can be used often and is extreamly useful for many applications. Whether you are making an app or embedding a video into your webpage this tool can be used in many different ways. In addition it can be programmed to  <a href="https://developers.google.com/youtube/">https://developers.google.com/youtube/</a>. Credit given to <a href="https://developers.google.com/youtube/iframe_api_reference">https://developers.google.com/youtube/iframe_api_reference</a> for certain code excerpts.</center></p>
+		<h5>What is the YouTube IFrame API?</h5>
+		<p><center>The Iframe player API is a program that lets you embed a YouTube video player into your website and lets you program it to your specifications using JavaScript. There are many ways to personalize it. </center></p>
+		<table class="offset">
+				<tr>
+					<th>For example you can:</th>
+				</tr>
+					<td>1. Play</td>
+				<tr>
+					<td>2. Pause</td>
+				</tr>
+					<td>3. Stop</td>
+				<tr>
+					<td>4. Adjust player volume</td>
+				</tr>
+					<td>5. Retrieve information about the video</td>
+				<tr>
+					<td>6. Add event listeners</td>
+				</tr>
+		</table>
+				
+		<p><left>I choose to do this program because it is a useful tool that can be added to any website either to support information, explain ideas, or just for fun!</left></p>
+		<p><left>Here is where you can find the software and existing documentation for the YouTube IFrame API. Credit is given for code experts. 
+		<a href="https://developers.google.com/youtube/iframe_api_reference">https://developers.google.com/youtube/iframe_api_reference</a> for certain code excerpts.</left></p>
 					
 				<br /><div class="blackBar"></div><br />
 				
