@@ -129,3 +129,16 @@ RawBlameHistory
         right: 35px;
     }
 }
+
+div.outer {
+	width: 100%;
+	border: 2px solid purple;
+}
+
+code {
+	background-color: #E1EAED;
+}
+
+code.chunk {
+	background-color: white;
+}
