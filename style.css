@@ -55,24 +55,24 @@
     }
 }
 body{
-	background-color:pink;
+	background-color: white;
 }
 
 div.outer {
-	width: 80%;
-	border: 2px solid purple;
+	width: 100%;
+	border: 10px solid purple;
 }
 
 
 div.inner-body {
 	width: 93%;
-	margin-left:3%;
+	margin-left:0%;
 }
 
 
 div.inner-heading {
-	margin-right:1%;
-	margin-left:1%;
+	margin-right:0%;
+	margin-left:0%;
 }
 
 div.blackBar {
