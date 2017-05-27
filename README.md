@@ -21,7 +21,7 @@
     <link href="default.css" rel="stylesheet" type="text/css" media="all" />
     <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
     
-        <div id="London" class="tabcontent">
+       <div id="London" class="tabcontent">
   <h3>London</h3>
   <p>London is the capital city of England.</p>
 </div>
