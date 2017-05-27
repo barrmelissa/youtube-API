@@ -12,7 +12,7 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">youtubeAPI</h1>
+      <h1 class="project-name">YouTube API Tutorial</h1>
       <h2 class="project-tagline">API for YouTube videos</h2>
       
         <a href="https://github.com/barrmelissa/youtubeAPI" class="btn">View on GitHub</a>
