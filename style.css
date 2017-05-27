@@ -1,75 +1,31 @@
-body{
-	background-color:white;
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
 }
 
-div.outer {
-	width: 80%;
-	border: 5px solid red;
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
 }
 
-nav.navigation {
-	width: 20%;
-    background-color: #E1EAED;
-    position: left;
-	top: 20%;
-    right:0;
-	border: 5px solid black;
-	z-index: 2;
-	padding-left: 10px;
-	padding-right: 10px;
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
 }
 
-div.inner-body {
-	width: 93%;
-	margin-left:3%;
-}
-
-
-div.inner-heading {
-	margin-right:1%;
-	margin-left:1%;
-}
-
-div.blackBar {
-	background-color: black;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	height: 3px;
-}
-
-div.inner-heading {
-	background-color: red;
-	border-radius: 25px;
-	text-align: center;
-	margin-left: 33%;
-	margin-right: 33%;
-	color: white;
-}
-
-h1 {
-	background-color: red;
-	border-radius: 25px;
-	text-align: center;
-	margin-left: 35%;
-	margin-right: 35%;
-	color: white;
-	padding-top: 1%;
-	padding-bottom: 1%;
-}
-
-th, td {
-	padding: 3px;
-}
-
-code {
-	background-color: #E1EAED;
-}
-
-code.chunk {
-	background-color: white;
-}
-
-h4 {
-	font-style: italic;
-}
+/* Style each tab content individually */ 
+#London {background-color:red;}
+#Paris {background-color:green;}
+#Tokyo {background-color:blue;}
+#Oslo {background-color:orange;}
