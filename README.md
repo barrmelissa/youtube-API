@@ -27,10 +27,10 @@
       <h2 id="youtube-iframe-api">YouTube iFrame API</h2>
 
 <li><a href="#aboutThisGuide">About the Guide</a></li>
-<li><a href="#embeddingAVideo">Embedding A Video</a><li>
+<li><a href="#embedVideo">Embedding A Video</a><li>
 
 <h2 id="aboutthisguide">AboutThisGuide</h2>
-<h2 id="embeddingavideo">EmbeddingAVideo</h2>
+<h2 id="embedvideo">EmbeddingAVideo</h2>
 
 <p>&lt;/head&gt;</p>
 <body>
