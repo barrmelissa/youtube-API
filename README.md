@@ -532,8 +532,8 @@
 				<br />
 				
 				<iframe width="420" height="315" 
-src="http://www.youtube.com/embed/XGSy3_Czz8k?autohide=0">
-</iframe> 
+				src="http://www.youtube.com/embed/XGSy3_Czz8k?autoplay=1">
+				</iframe> 
 				
 				<img src="codeImage.jpg" alt="JavaScript Code" /> </center>
 					
