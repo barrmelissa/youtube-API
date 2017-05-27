@@ -125,11 +125,8 @@ function closeNav() {
 			</ul>
 		</nav> -->
 
-	<br>
-	<div class="outer"><br />
-	<br>
+	<div class="outer">
 	<div class="inner-title">
-	<br />
 	<center><h1>The Basics of YouTube API</h1>
 	<h4><font>By: Melissa Barr </font></h4></center>
 	<br />
