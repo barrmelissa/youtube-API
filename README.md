@@ -124,7 +124,6 @@ function closeNav() {
 				<li><a href="#exampleVideo">Example Video</a></li>
 			</ul>
 		</nav> -->
-						<!DOCTYPE html>
 <html>
   <body>
     <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
