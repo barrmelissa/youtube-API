@@ -124,7 +124,19 @@ function closeNav() {
 				<li><a href="#exampleVideo">Example Video</a></li>
 			</ul>
 		</nav> -->
-<html>
+
+	<br>
+	<div class="outer"><br />
+	<br>
+	<div class="inner-title">
+	<br />
+	<center><h1>The Basics of YouTube API</h1>
+	<h4><font>By: Melissa Barr </font></h4></center>
+	<br />
+	</div>
+	</div>
+	
+	<html>
   <body>
     <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
     <div id="player"></div>
@@ -173,16 +185,6 @@ function closeNav() {
     </script>
   </body>
 </html>	
-	<br>
-	<div class="outer"><br />
-	<br>
-	<div class="inner-title">
-	<br />
-	<center><h1>The Basics of YouTube API</h1>
-	<h4><font>By: Melissa Barr </font></h4></center>
-	<br />
-	</div>
-	</div>
 
 	<div class="outer">
 	<div id="aboutThisGuide"></div>
