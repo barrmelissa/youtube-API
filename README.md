@@ -20,22 +20,8 @@
     <link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
     <link href="default.css" rel="stylesheet" type="text/css" media="all" />
     <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">YouTube API Tutorial</h1>
-      <h2 class="project-tagline">API for YouTube videos</h2>
-      
-        <a href="https://github.com/barrmelissa/youtubeAPI" class="btn">View on GitHub</a>
-      
-      
-    </section>
-
-    <section class="main-content">
-      <h2 id="youtube-iframe-api">YouTube iFrame API</h2>
-      
-      <div id="London" class="tabcontent">
+    
+        <div id="London" class="tabcontent">
   <h3>London</h3>
   <p>London is the capital city of England.</p>
 </div>
@@ -59,6 +45,12 @@
 <button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
 <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
 <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+
+  </head>
+  <body>
+
+    <section class="main-content">
+      <h2 id="youtube-iframe-api">YouTube iFrame API</h2>
  
 <!--<nav class="navigation">
 			<p> <b>Navigation</b> </p>
