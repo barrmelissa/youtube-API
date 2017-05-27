@@ -1,9 +1,9 @@
 
-<!DOCTYPE html1>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
 	
-		<script src="someScript.js"></script>	
+<script src="someScript.js"></script>	
 		
 <html lang="en-us">
   <head>
@@ -71,8 +71,8 @@
 	</div>
 	
 	<br />
-				<div class="outer">
-			<div id="aboutThisGuide"></div>
+	<div class="outer">
+		<div id="aboutThisGuide"></div>
 				<div class="inner-heading">	
 					<h3><br />About This Guide<br /><br /></h3>
 				</div>
