@@ -25,9 +25,6 @@
 
     <section class="main-content">
       <h2 id="youtube-iframe-api">YouTube iFrame API</h2>
-      
-      <h2 id="aboutthisguide">AboutThisGuide</h2>
-     <h2 id="embedvideo">EmbeddingAVideo</h2>
  
 	<nav class="navigation">
 			<p> <b>Navigation</b> </p>
