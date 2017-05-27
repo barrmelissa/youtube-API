@@ -141,12 +141,12 @@ function closeNav() {
 	<div class="outer">
 	<div id="aboutThisGuide"></div>
 			<div class="inner-heading">	
-				<h3><br />Introduction<br /><br /></h3>
+				<h2><br />Introduction<br /><br /></h2>
 			</div>
 			<div class="inner-body">
 					
 		<h5>What is the YouTube IFrame API?</h5>
-		<p><center>The Iframe player API is a program that lets you embed a YouTube video player into your website and lets you program it to your specifications using JavaScript. There are many ways to personalize it. </center></p>
+		<p><left>The Iframe player API is a program that lets you embed a YouTube video player into your website and lets you program it to your specifications using JavaScript. There are many ways to personalize it. </left></p>
 		<table class="offset">
 				<tr>
 					<th>For example you can:</th>
@@ -167,7 +167,7 @@ function closeNav() {
 				
 		<p><left>I choose to do this program because it is a useful tool that can be added to any website either to support information, explain ideas, or just for fun!</left></p>
 		<p><left>Here is where you can find the software and existing documentation for the YouTube IFrame API. Credit is given for code experts. 
-		<a href="https://developers.google.com/youtube/iframe_api_reference">https://developers.google.com/youtube/iframe_api_reference</a> for certain code excerpts.</left></p>
+		<a href="https://developers.google.com/youtube/iframe_api_reference">https://developers.google.com/youtube/iframe_api_reference</a></left></p>
 					
 				<br /><div class="blackBar"></div><br />
 				
