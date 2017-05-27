@@ -30,6 +30,7 @@
 <li><a href="#embeddingAVideo">Embedding A Video</a><li>
 
 <h2 id="aboutthisguide">AboutThisGuide</h2>
+<h2 id="embeddingavideo">EmbeddingAVideo</h2>
 
 <p>&lt;/head&gt;</p>
 <body>
