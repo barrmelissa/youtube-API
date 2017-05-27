@@ -185,7 +185,7 @@ function closeNav() {
 	<div class="outer">
 	<div id="aboutThisGuide"></div>
 			<div class="inner-heading">	
-				<h2><br />Introduction<br /><br /></h2>
+				<h2>Introduction></h2>
 			</div>
 			<div class="inner-body">
 					
