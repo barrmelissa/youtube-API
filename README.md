@@ -7,7 +7,7 @@
 		
 <html lang="en-us">
 
-  <head>
+<!--  <head>
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>YouTube API Home</title>
     <meta name="heywords" content="" />
