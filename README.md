@@ -193,9 +193,7 @@ Released   : 20140309
 
 	&lt;/div&gt;
 <div id="bottom">
-	<div id="copyright" class="container">
-	<p>&copy; Connor Wallace All rights reserved. | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>. | 2017</p>
-</div>
+
 <script src="howto.js"></script>
 <script type="text/javascript">
 	document.getElementById("nexter").addEventListener("click",changeCode);
