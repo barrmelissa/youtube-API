@@ -182,7 +182,6 @@ function closeNav() {
     </script>
   </body>
 </html>	
-
 	<div class="outer">
 	<div id="aboutThisGuide"></div>
 			<div class="inner-heading">	
