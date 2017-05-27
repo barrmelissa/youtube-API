@@ -2,13 +2,16 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="UTF-8">
-    <title>YouTube iFrame API</title>
-    <meta name="description" content="API for YouTube videos"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>YouTube API Home</title>
+    <meta name="heywords" content="" />
+    <meta name="description" content="content1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/youtubeAPI/assets/css/style.css?v=7e70b5d52d227263449982905952e7be597a1ba1">
+    <link href="http://fonts.googleapis.com/css?family=Varela" rel="stylesheet" />
+    <link href="default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
   </head>
   <body>
     <section class="page-header">
