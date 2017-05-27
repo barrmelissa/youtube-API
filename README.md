@@ -83,10 +83,12 @@ body {
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-    <a href="#aboutThisGuide">Introduction</a>
+    <a onclick="closeNav()" href="#aboutThisGuide">Introduction</a>
+    <a onclick="closeNav()" href="#embedVideo">Embedding a Video</a>
+    <a onclick="closeNav()" href="#queueFunctions">Queuing Functions</a>
+    <a onclick="closeNav()" href="#eventsPage">Event Handlers</a>
     <a onclick="closeNav()" href="#playbackControls">Playback Controls</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <a onclick="closeNav()" href="#exampleVideo">Example Video</a>
   </div>
 </div>
 
