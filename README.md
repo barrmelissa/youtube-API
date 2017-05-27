@@ -92,6 +92,8 @@ body {
 
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+<span style="font-size:30px;cursor:pointer" onclick="closeNav()">&#9776; Playback Controls</span>
+
 
 <script>
 function openNav() {
