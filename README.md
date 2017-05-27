@@ -172,10 +172,7 @@ function closeNav() {
       }
     </script>
   </body>
-</html>
-		
-		
-		
+</html>	
 	<br>
 	<div class="outer"><br />
 	<br>
@@ -216,14 +213,15 @@ function closeNav() {
 				
 		<p><left>I choose to do this program because it is a useful tool that can be added to any website either to support information, explain ideas, or just for fun!</left></p>
 		<p><left>Here is where you can find the software and existing documentation for the YouTube IFrame API. Credit is given for code experts. 
-		<a href="https://developers.google.com/youtube/iframe_api_reference">https://developers.google.com/youtube/iframe_api_reference</a></left></p>
-					
-				<br /><div class="blackBar"></div><br />
-				
-				<h4>What is this API?</h4>
-				<p><center>We will be using the IFrame Player API in order to embed videos to our own applications. The IFrame Player API posts content directly to a <code>&lt;iframe&gt;</code> tag on your page. This is different from JavaScript or Flash as they both involve embedding a Flash object, which mobile devices do not support.
+		<a href="https://developers.google.com/youtube/iframe_api_reference">https://developers.google.com/youtube/iframe_api_reference</a></left></p>	
+		<br /><div class="blackBar"></div><br />		
+			<h2>Getting Started: How do you set it up?</h2>
+			<p><left>There are a few requirements that you need:
+					<li>Browser that supports the HTML5 postMessage feature (most browsers do but keep in mind that Internet Explorer 7 does not support this)</li>
+					<li>The player must have an area at least 200px by 200px to play the video and if you decide to include controls then it must have room for that as well</li>
+					<li>Must use the “onYouTubeIframeAPIReady” function - we will explain more on this later</li>
 					<br /><br />
-					This guide will discuss the IFrame API in greater detail, such as how to embed a video, how to use JavaScript functions to control the videos, and adding event listeners for certain events.</center></p>
+					This guide will discuss the IFrame API in greater detail, such as how to embed a video, how to use JavaScript functions to control the videos, and adding event listeners for certain events.</left></p>
 					
 					<br /><div class="blackBar"></div><br />
 					
