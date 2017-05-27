@@ -84,7 +84,7 @@ body {
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
     <a href="#aboutThisGuide">Introduction</a>
-    <a href="#">Services</a>
+    <a href="#playbackControls">Playback Controls</a>
     <a href="#">Clients</a>
     <a href="#">Contact</a>
   </div>
