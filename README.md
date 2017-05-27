@@ -1,15 +1,6 @@
 
 <!DOCTYPE html>
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<title>How To Guide</title>
-	</head>
-	
-	<body>
-		<script src="someScript.js"></script>
-		
-		<div class="tab">
+<div class="tab">
   <button class="tablinks" onclick="openCity(event, 'London')">London</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
@@ -28,8 +19,15 @@
 <div id="Tokyo" class="tabcontent">
   <h3>Tokyo</h3>
   <p>Tokyo is the capital of Japan.</p>
-</div>	
-		
+</div>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>How To Guide</title>
+	</head>
+	
+	<body>
+		<script src="someScript.js"></script>	
 		
 <html lang="en-us">
   <head>
