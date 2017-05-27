@@ -6,6 +6,7 @@
 <script src="someScript.js"></script>	
 		
 <html lang="en-us">
+
   <head>
  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>YouTube API Home</title>
@@ -39,7 +40,7 @@
   </head>
   <body>
 
-    <section class="main-content">
+   <!-- <section class="main-content">
       <h2 id="youtube-iframe-api">YouTube iFrame API</h2>
  
 <!--<nav class="navigation">
