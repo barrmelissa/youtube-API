@@ -1,5 +1,30 @@
 
 <!DOCTYPE html>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Oslo" class="tabcontent">
+  <h3>Oslo</h3>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+
+<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -35,7 +60,7 @@
     <section class="main-content">
       <h2 id="youtube-iframe-api">YouTube iFrame API</h2>
  
-	<nav class="navigation">
+	<!--<nav class="navigation">
 			<p> <b>Navigation</b> </p>
 			<ul class="menu">	
 				<li><a href="#top">Title</a></li>
@@ -46,7 +71,8 @@
 				<li><a href="#playbackControls">Playback Controls</a></li>
 				<li><a href="#exampleVideo">Example Video</a></li>
 			</ul>
-		</nav>
+		</nav>-->
+		
 		<div class="outer"><br />
 	<div class="inner-title">
 	<br />
