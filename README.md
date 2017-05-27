@@ -48,10 +48,6 @@ function closeNav() {
 </body>
 </html>
 
-
-  </head>
-  <body>
-
    <!-- <section class="main-content">
       <h2 id="youtube-iframe-api">YouTube iFrame API</h2>
  
