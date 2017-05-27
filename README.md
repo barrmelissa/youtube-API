@@ -18,7 +18,6 @@
     <link href="default.css" rel="stylesheet" type="text/css" media="all" />
     <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
     
-<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -126,9 +125,11 @@ function closeNav() {
 				<li><a href="#playbackControls">Playback Controls</a></li>
 				<li><a href="#exampleVideo">Example Video</a></li>
 			</ul>
-		</nav>
+		</nav> -->
 		
-		<div class="outer"><br />
+	<br>
+	<div class="outer"><br />
+	<br>
 	<div class="inner-title">
 	<br />
 	<center><h1>The Basics of YouTube API</h1>
@@ -136,17 +137,16 @@ function closeNav() {
 	<br />
 	</div>
 	</div>
-	
-	<br />
+
 	<div class="outer">
-		<div id="aboutThisGuide"></div>
-				<div class="inner-heading">	
-					<h3><br />About This Guide<br /><br /></h3>
-				</div>
-				<div class="inner-body">
+	<div id="aboutThisGuide"></div>
+			<div class="inner-heading">	
+				<h3><br />About This Guide<br /><br /></h3>
+			</div>
+			<div class="inner-body">
 					
-			<h4>Why YouTube API?</h4>
-					<p><center>I chose to research and learn about the YouTube API because it is a useful skill to have when building websites. YouTube videos are a handy tool, whether it be informational or about cats doing funny things. While this is only a basic overview of the YouTube API, more information can be found at <a href="https://developers.google.com/youtube/">https://developers.google.com/youtube/</a>. Credit given to <a href="https://developers.google.com/youtube/iframe_api_reference">https://developers.google.com/youtube/iframe_api_reference</a> for certain code excerpts.</center></p>
+		<h5>Why YouTube API?</h5>
+		<p><center>I choose to do my project on the iFrame YouTube API because it is a tool that can be used often and is extreamly useful for many applications. Whether you are making an app or embedding a video into your webpage this tool can be used in many different ways. In addition it can be programmed to  <a href="https://developers.google.com/youtube/">https://developers.google.com/youtube/</a>. Credit given to <a href="https://developers.google.com/youtube/iframe_api_reference">https://developers.google.com/youtube/iframe_api_reference</a> for certain code excerpts.</center></p>
 					
 				<br /><div class="blackBar"></div><br />
 				
