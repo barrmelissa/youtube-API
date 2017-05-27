@@ -10,10 +10,10 @@ div.outer {
 nav.navigation {
 	width: 20%;
     background-color: #E1EAED;
-    position: fixed;
-	top: 5%;
+    position: left;
+	top: 20%;
     right:0;
-	border: 1px solid black;
+	border: 5px solid black;
 	z-index: 2;
 	padding-left: 10px;
 	padding-right: 10px;
