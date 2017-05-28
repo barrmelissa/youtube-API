@@ -221,22 +221,22 @@ function closeNav() {
 					<br /><br />Here is a sample HTML code that creates an embedded player that will load a video. Code explained below.</left></p>
 					
 					<code><!DOCTYPE html></code>
-  <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-    <div id="player"></div>
+  <code><!-- 1. The <iframe> (and video player) will replace this <div> tag. --></code>
+    <code><div id="player"></div></code>
 
-    <script>
-      // 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');
+<script>
+      <code>// 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');</code>
 
-      tag.src = "https://www.youtube.com/iframe_api";
+      <code>tag.src = "https://www.youtube.com/iframe_api";
       var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);</code>
 
-      // 3. This function creates an <iframe> (and YouTube player)
-      //    after the API code downloads.
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('player', {
+      <code>// 3. This function creates an </code> <iframe> <code> (and YouTube player)
+      //    after the API code downloads.</code>
+      <code>var player;</code>
+      <code>function onYouTubeIframeAPIReady() {</code>
+      <code>player = new YT.Player('player', {</code>
           height: '390',
           width: '640',
           videoId: 'M7lc1UVf-VE',
