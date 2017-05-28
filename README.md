@@ -290,12 +290,33 @@ function closeNav() {
                'endSeconds': 60,
                'suggestedQuality': 'large'});
 		     </code>
-		     <p><left>The API supports the two different types of syntax. The first type, argument syntax, requires that the function arguments be listed in order. The second type, object syntax, lets you pass an object as a single parameter to define the properties and may support addition things that the argument syntax does not.
+		     <p><left>The API supports the two different types of syntax. The first type, argument syntax, requires that the function arguments be listed in order. The second type, object syntax, lets you pass an object as a single parameter to define the properties and may support additional things that the argument syntax does not.
 		     <br/><br/>
 		     If you want to start the video 5 seconds in and not end it at a certain time then argument syntax is the way to go. If you want to start the video 5 seconds in and end it after 60 seconds then object syntax gives the option to do that.</left></p>
-
-				
-				
+		     <h4>Functions</h4>
+		     <p><left>Without going into too much detail, a brief overview of other functions available include the following. Keep in mind that each of these also have options for argument syntax as well as object syntax.</left></p>
+		     
+		     <table class="offset" border="1">
+					<tr>
+						<th>Function</th>
+						<th>Description</th>
+					</tr>
+						<td><code class="chunk">cueVideoById</code></td>
+						<td>This function loads the video’s thumbnails and prepares the player to play the video</td>
+					&lt;/tr&gt;
+					<tr>
+						<td><code class="chunk">loadVideoById</code></td>
+						<td>This function loads and plays the specified video</td>
+					</tr>
+					<tr>
+						<td><code class="chunk">cueVideoByUrl</code></td>
+						<td>This function does the same this as cueVideoById but uses an URL</td>
+					</tr>
+					<tr>
+						<td><code class="chunk">loadVideoByUrl</code></td>
+						<td>This function does the same thing as loadVideoById but uses an URL</td>
+					</tr>
+				</table>	
 				<br /><div class="blackBar"></div><br />
 				
 				<h4>Using the <code>&lt;iframe&gt;</code> element.</h4>
