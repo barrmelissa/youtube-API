@@ -250,7 +250,26 @@ function closeNav() {
 						<td>2. The second parameter specifies the video player options</td>
 					</tr>
 				</table>
-				<p><left>In simpler terms, the first parameter replaces it with the <code>iframe</code> element which contains the player. Keep in mind that this can also change the layout of the page if the parameter replaced has a different display style than the <code>iframe</code>.</left></p>
+				<p><left>In simpler terms, the first parameter replaces it with the <code>iframe</code> element which contains the player. Keep in mind that this can also change the layout of the page if the parameter replaced has a different display style than the <code>iframe</code>.
+				<br/>The second parameter is where all of the personalizing comes in. The object contains 5 properties:</left></p>
+				<table class="offset" border="1">
+					<tr>
+						<th>Property</th>
+						<th>Function</th>
+					</tr>
+						<td><code class="chunk">width</code></td>
+						<td>This is a number and specifies the width of the video player. (Default: 640)</td>
+					&lt;/tr&gt;
+					<tr>
+						<td><code class="chunk">height</code></td>
+						<td>This is a number and specifies the height of the video player. (Default: 390)</td>
+					</tr>
+					<tr>
+						<td><code class="chunk">videoId</code></td>
+						<td>This is the ID of the video that will play. It can be found at the end of the url. (Ex: for https://www.youtube.com/watch?v=0HTexqxo1og then "0HTexqxo1og" is the ID of the video.</td>
+					</tr>
+				</table>
+				
 				<br /><div class="blackBar"></div><br />
 				
 				<h4>Using the <code>&lt;iframe&gt;</code> element.</h4>
