@@ -240,13 +240,12 @@ function closeNav() {
 				<div class="inner-body">
 				
 				<table class="offset">
+					<tr>	
 						<th>There are two parameters to consider here:</th>
 					</tr>
 					<td>1. The first parameter specifies either the DOM element of the <code>id</code> or the HTML element</td>
-					&lt;/tr&gt;
 					<tr>
-						<td>2. The second parameter specifies the video player options
-</td>
+						<td>2. The second parameter specifies the video player options</td>
 					</tr>
 				</table>
 				<br/><br/><p><left>In simpler terms, the first parameter replaces it with the iframe element which contains the player. Keep in mind that this can also change the layout of the page if the parameter replaced has a different display style than the iframe.</left></p>
