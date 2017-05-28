@@ -220,7 +220,7 @@ function closeNav() {
 					<li>Must use the “onYouTubeIframeAPIReady” function - we will explain more on this later</li>
 					<br /><br />Here is a sample HTML code that creates an embedded player that will load a video. Code explained below.</left></p>
 				![Image of YouTube IFrame API]
-				(https://barrmelissa.github.com/HTMLexampleYouTubeAPI.png)
+				(https://barrmelissa.github.com/youtube-API/HTMLexampleYouTubeAPI.png)
 				
 
 
