@@ -230,22 +230,7 @@ function closeNav() {
 	<br/><br/>While the previous function gets the video ready to play, the <code>onPlayerReady</code> function plays the video when it is ready. Again, this depends on the settings you have programmed it to.
 	<br/><br/>Lastly #5 is all about changing the state of the player. The <code>onPlayerStateChange</code> function is for when the state of the player changes. This includes any of the 6 ways to personalize the video player shown in the introduction as well as more!
 	<br/><br/>In this example specifically, you can see the number 6000. This means that the video will start playing and after 6 seconds the video will call the function <code>stopVideo()</code> and the player will stop it. As you can see from the video playing at the top of the website, it does not have this restriction on it because it is able to play throughout the whole video.</left></p>
-
-
-
-
-
 				<br /><div class="blackBar"></div><br />
-				<p>In order to run the IFrame API, there are a few necessary requirements.
-				<br /><br />
-				These requirements are as follows:</p>
-				<ul>
-						<li>Your browser must be able to support the HTML5 <code>postMessage</code> feature. This feature allows for data messages to be sent between two windows/frames across domains.</li>
-						<li>YouTube requires that embedded videos have a viewport of at least 200px by 200px. That size does not include the control bar at the bottom, so beware of that when embedding videos. The Google recommended size of this is 480px wide by 270px tall.</li>
-						<li>The JavaScript function <code>onYouTubeIframeAPIReady</code> must be implemented on any page that runs the IFrame API. The <code>onYouTubeIframeAPIReady</code> function will be called when the page has finished downloading the JavaScript for this player API. This will allows the content within the API to be loaded.</li>
-					</ul>
-					
-					<br />
 				</div>
 			</div>
 		</div>	
