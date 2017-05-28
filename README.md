@@ -279,17 +279,13 @@ function closeNav() {
 				<br/><br/>There are 2 types of syntax that make this happen.</left></p>
 				
 				<h4><li>Argument syntax</li><h4>
-				<br/>
-				<li><h4>Object syntax</h4></li>
-				<br/><br/>
-				
 				<code>
 				player.cueVideoById(videoId:String,
                		     startSeconds:Number,
                		     suggestedQuality:String):Void
 			     </code>
-			     <br/><br/>
-			     
+				<br/>
+				<li><h4>Object syntax</h4></li>
 			     <code>
 			     player.cueVideoById({videoId:String,
                      startSeconds:Number,
