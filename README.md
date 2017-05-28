@@ -224,7 +224,17 @@ function closeNav() {
 	<img src="HTMLexampleYouTubeAPI.png" alt="YouTubeAPI" style="width:650px;height:800px;">
 	
 	<p><left>So lets talk about what’s going on here. 
-	<br/>Starting at the top at #1, the <code>&lt;div&gt;</code> tag is used to get the location on the page of where the video player will be placed. This is identified by the id to make sure that the <code>&lt;iframe&gt;</code> places it in the correct location.
+	<br/><br/>Starting at the top at #1, the <code>&lt;div&gt;</code> tag is used to get the location on the page of where the video player will be placed. This is identified by the id to make sure that the <code>&lt;iframe&gt;</code> places it in the correct location.
+	<br/><br/>Continuing on to #2, this is the part of the code that actually loads the Iframe Player API JavaScript code. The <code>&lt;script&gt;</code> part is needed to asynchronously download the code. It is important to keep in mind that this is not yet supported in all modern browsers.
+	<br/><br/>Remember when we mentioned the <code>onYouTubeAPIReady</code> function before? This is where it comes into play. It is used to execute the code as soon as the player downloads. What is is actually doing is contracting a video player object but to phrase that in easier to understand terms it is defining the terms of the player and getting ready to play the video. There are a few ways to personalize this which we will go into detail in a bit but as shown you can specify the height, width, and when it plays.
+	<br/><br/>While the previous function gets the video ready to play, the <code>onPlayerReady</code> function plays the video when it is ready. Again, this depends on the settings you have programmed it to.
+	<br/><br/>Lastly #5 is all about changing the state of the player. The <code>onPlayerStateChange</code> function is for when the state of the player changes. This includes any of the 6 ways to personalize the video player shown in the introduction as well as more!
+	<br/><br/>In this example specifically, you can see the number 6000. This means that the video will start playing and after 6 seconds the video will call the function <code>stopVideo()</code> and the player will stop it. As you can see from the video playing at the top of the website, it does not have this restriction on it because it is able to play throughout the whole video.</left></p>
+
+
+
+
+
 				<br /><div class="blackBar"></div><br />
 				<p>In order to run the IFrame API, there are a few necessary requirements.
 				<br /><br />
