@@ -220,12 +220,12 @@ function closeNav() {
 					<li>Must use the “onYouTubeIframeAPIReady” function - we will explain more on this later</li>
 					<br /><br />Here is a sample HTML code that creates an embedded player that will load a video. Code explained below.</left></p>
 					
-```
+```javascript
 					<!DOCTYPE html>
   <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
     <div id="player"></div>
 
-<script>
+	<script>
       // 2. This code loads the IFrame Player API code asynchronously.
       var tag = document.createElement('script');
 
@@ -267,8 +267,6 @@ function closeNav() {
         player.stopVideo();
       }
     </script>
-  </body>
-</html>
 ```
 				<br /><div class="blackBar"></div><br />
 				<h4>Requirements</h4>
