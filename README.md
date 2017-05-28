@@ -214,15 +214,18 @@ function closeNav() {
 		<a href="https://developers.google.com/youtube/iframe_api_reference">https://developers.google.com/youtube/iframe_api_reference</a></left></p>	
 		<br /><div class="blackBar"></div><br />		
 			<h2>Getting Started: How do you set it up?</h2>
+			<h4>Requirements</h4>
 			<p><left>There are a few requirements that you need:
 					<li>Browser that supports the HTML5 postMessage feature (most browsers do but keep in mind that Internet Explorer 7 does not support this)</li>
 					<li>The player must have an area at least 200px by 200px to play the video and if you decide to include controls then it must have room for that as well</li>
-					<li>Must use the “onYouTubeIframeAPIReady” function - we will explain more on this later</li>
+					<li>Must use the <code>onYouTubeIframeAPIReady</code> function - we will explain more on this later</li>
 					<br /><br />Here is a sample HTML code that creates an embedded player that will load a video. Code explained below.</left></p>
 					
 	<img src="HTMLexampleYouTubeAPI.png" alt="YouTubeAPI" style="width:650px;height:800px;">
+	
+	<p><left>So lets talk about what’s going on here. 
+	<br/>Starting at the top at #1, the <code>&lt;div&gt;</code> tag is used to get the location on the page of where the video player will be placed. This is identified by the id to make sure that the <code>&lt;iframe&gt;</code> places it in the correct location.
 				<br /><div class="blackBar"></div><br />
-				<h4>Requirements</h4>
 				<p>In order to run the IFrame API, there are a few necessary requirements.
 				<br /><br />
 				These requirements are as follows:</p>
