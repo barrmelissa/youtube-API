@@ -271,8 +271,7 @@ function closeNav() {
   </body>
 </html>
 </xmp>
-				
-				
+	<img src="HTMLexampleYouTubeAPI.png" alt="Mountain View" style="width:304px;height:228px;">
 				<br /><div class="blackBar"></div><br />
 				<h4>Requirements</h4>
 				<p>In order to run the IFrame API, there are a few necessary requirements.
