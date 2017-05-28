@@ -233,8 +233,9 @@ function closeNav() {
 				<br /><div class="blackBar"></div><br />			
 		<div class="outer">
 			<div id="embedVideo"></div>
-				<div class="inner-heading">	
-					<h3>Loading a Video</h3>
+				<div class="inner-heading">
+				<h2>Video Player: How do you interact with it?</h2>
+				<h4>Loading a Video</h4>
 				<p><left>Now that we have the basics down we can make adjustments to personalize the video player even more! Here is the code shown in #3 above but posted again to make it easier to follow.</left></p>	
 				
 				<img src="YouTubeAPILoadingVideoExample.png" alt="YouTubeAPIVideoExample" style="width:400px;height:400px;">
@@ -251,7 +252,7 @@ function closeNav() {
 					</tr>
 				</table>
 				<p><left>In simpler terms, the first parameter replaces it with the <code>iframe</code> element which contains the player. Keep in mind that this can also change the layout of the page if the parameter replaced has a different display style than the <code>iframe</code>.
-				<br/>The second parameter is where all of the personalizing comes in. The object contains 5 properties:</left></p>
+				<br/><br/>The second parameter is where all of the personalizing comes in. The object contains 5 properties:</left></p>
 				<table class="offset" border="1">
 					<tr>
 						<th>Property</th>
