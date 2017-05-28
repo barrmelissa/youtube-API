@@ -234,7 +234,7 @@ function closeNav() {
 		<div class="outer">
 			<div id="embedVideo"></div>
 				<div class="inner-heading">	
-					<h3><br />Loading a Video<br /><br /></h3>
+					<h3>Loading a Video</h3>
 				<p><left>Now that we have the basics down we can make adjustments to personalize the video player even more! Here is the code shown in #3 above but posted again to make it easier to follow.</left></p>
 
 				<div class="inner-body">
@@ -248,7 +248,7 @@ function closeNav() {
 						<td>2. The second parameter specifies the video player options</td>
 					</tr>
 				</table>
-				<br/><br/><p><left>In simpler terms, the first parameter replaces it with the iframe element which contains the player. Keep in mind that this can also change the layout of the page if the parameter replaced has a different display style than the iframe.</left></p>
+				<p><left>In simpler terms, the first parameter replaces it with the <code>iframe</code> element which contains the player. Keep in mind that this can also change the layout of the page if the parameter replaced has a different display style than the <code>iframe</code>.</left></p>
 				<br /><div class="blackBar"></div><br />
 				
 				<h4>Using the <code>&lt;iframe&gt;</code> element.</h4>
