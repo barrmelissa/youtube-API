@@ -219,20 +219,24 @@ function closeNav() {
 					<li>The player must have an area at least 200px by 200px to play the video and if you decide to include controls then it must have room for that as well</li>
 					<li>Must use the “onYouTubeIframeAPIReady” function - we will explain more on this later</li>
 					<br /><br />Here is a sample HTML code that creates an embedded player that will load a video. Code explained below.</left></p>
-					<code><code><!DOCTYPE html></code>
-	   <code> <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
-	    <div id="player"></div></code>
-	<script>
-      <code>// 2. This code loads the IFrame Player API code asynchronously.
-      var tag = document.createElement('script');</code>
+					```markdown
+					<!DOCTYPE html>
+<html>
+  <body>
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="player"></div>
 
-      <code>tag.src = "https://www.youtube.com/iframe_api";
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
       var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);</code>
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
-      <code>// 3. This function creates an</code> <iframe> <code>(and YouTube player)
-      //    after the API code downloads.</code>
-      <code> var player;
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
           height: '390',
@@ -243,30 +247,30 @@ function closeNav() {
             'onStateChange': onPlayerStateChange
           }
         });
-	}</code>
+      }
 
-     <code> // 4. The API will call this function when the video player is ready.
+      // 4. The API will call this function when the video player is ready.
       function onPlayerReady(event) {
         event.target.playVideo();
-      } </code>
+      }
 
-      <code>// 5. The API calls this function when the player's state changes.
+      // 5. The API calls this function when the player's state changes.
       //    The function indicates that when playing a video (state=1),
       //    the player should play for six seconds and then stop.
       var done = false;
       function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING !done) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
           setTimeout(stopVideo, 6000);
           done = true;
         }
-      }</code>
-      <code>function stopVideo() {
+      }
+      function stopVideo() {
         player.stopVideo();
-      }</code>
+      }
     </script>
   </body>
-</html>
-</code>					
+</html>	
+```
 				<br /><div class="blackBar"></div><br />
 				<h4>Requirements</h4>
 				<p>In order to run the IFrame API, there are a few necessary requirements.
