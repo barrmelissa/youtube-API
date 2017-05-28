@@ -272,11 +272,36 @@ function closeNav() {
 				</table>
 				<p><left>The <code>onPlayerReady</code> event ensures that the video will start when the page opens which is shown here by the video in the beginning.</left></p>
 				
+				<h2>Functions</h2>
+				<h4>Queueing Functions</h4>
+				
+				<p><left>Now that we can get our video up and running what if we want to not play it immediately? For example wait 5 seconds to start the video. This is where functions come in. We will only touch briefly on this because it the information on this goes into great detail and we are looking more at the main idea.
+				<br/><br/>There are 2 types of syntax that make this happen.</left></p>
+				
+				1. Argument syntax
+				2. Object syntax
+				
+				<code>
+				player.cueVideoById(videoId:String,
+               		     startSeconds:Number,
+               		     suggestedQuality:String):Void
+			     </code>
+			     
+			     <code>
+			     player.cueVideoById({videoId:String,
+                     startSeconds:Number,
+                     endSeconds:Number,
+                     suggestedQuality:String}):Void
+		     </code>
+
+				
+				
 				<br /><div class="blackBar"></div><br />
 				
 				<h4>Using the <code>&lt;iframe&gt;</code> element.</h4>
 				<p>Sample code for using the <code>&lt;iframe&gt;</code> element is:</p>
 				<br />
+				
 				
 				<code class="chunk">
 					&lt;iframe width="420" height="315" <br /> 
