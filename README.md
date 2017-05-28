@@ -219,7 +219,7 @@ function closeNav() {
 					<li>The player must have an area at least 200px by 200px to play the video and if you decide to include controls then it must have room for that as well</li>
 					<li>Must use the “onYouTubeIframeAPIReady” function - we will explain more on this later</li>
 					<br /><br />Here is a sample HTML code that creates an embedded player that will load a video. Code explained below.</left></p>
-					<xmp>
+					<textarea>
 					<!DOCTYPE html>
 <html>
   <body>
@@ -270,7 +270,7 @@ function closeNav() {
     </script>
   </body>
 </html>
-</xmp>
+</textarea>
 				
 				
 				<br /><div class="blackBar"></div><br />
