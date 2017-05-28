@@ -230,30 +230,26 @@ function closeNav() {
 	<br/><br/>While the previous function gets the video ready to play, the <code>onPlayerReady</code> function plays the video when it is ready. Again, this depends on the settings you have programmed it to.
 	<br/><br/>Lastly #5 is all about changing the state of the player. The <code>onPlayerStateChange</code> function is for when the state of the player changes. This includes any of the 6 ways to personalize the video player shown in the introduction as well as more!
 	<br/><br/>In this example specifically, you can see the number 6000. This means that the video will start playing and after 6 seconds the video will call the function <code>stopVideo()</code> and the player will stop it. As you can see from the video playing at the top of the website, it does not have this restriction on it because it is able to play throughout the whole video.</left></p>
-				<br /><div class="blackBar"></div><br />		
-		<br /><br />
-		
+				<br /><div class="blackBar"></div><br />			
 		<div class="outer">
 			<div id="embedVideo"></div>
 				<div class="inner-heading">	
 					<h3><br />Loading a Video<br /><br /></h3>
-				</div>
 				<p><left>Now that we have the basics down we can make adjustments to personalize the video player even more! Here is the code shown in #3 above but posted again to make it easier to follow.</left></p>
 
 				<div class="inner-body">
 				
 				<table class="offset">
-					<tr>
 						<th>There are two parameters to consider here:</th>
 					</tr>
-					<td>1. The first parameter specifies either the DOM element of the <code>id</code> of the HTML element</td>
+					<td>1. The first parameter specifies either the DOM element of the <code>id</code> or the HTML element</td>
 					&lt;/tr&gt;
 					<tr>
-						<td>2. The second parameter specifies the player options
+						<td>2. The second parameter specifies the video player options
 </td>
 					</tr>
 				</table>
-				
+				<br/><br/><p><left>In simpler terms, the first parameter replaces it with the iframe element which contains the player. Keep in mind that this can also change the layout of the page if the parameter replaced has a different display style than the iframe.</left></p>
 				<br /><div class="blackBar"></div><br />
 				
 				<h4>Using the <code>&lt;iframe&gt;</code> element.</h4>
