@@ -218,16 +218,63 @@ function closeNav() {
 					<li>Browser that supports the HTML5 postMessage feature (most browsers do but keep in mind that Internet Explorer 7 does not support this)</li>
 					<li>The player must have an area at least 200px by 200px to play the video and if you decide to include controls then it must have room for that as well</li>
 					<li>Must use the “onYouTubeIframeAPIReady” function - we will explain more on this later</li>
-					<br /><br />
-					This guide will discuss the IFrame API in greater detail, such as how to embed a video, how to use JavaScript functions to control the videos, and adding event listeners for certain events.</left></p>
-					
-					<br /><div class="blackBar"></div><br />
-					
-					<h4>Requirements</h4>
-					<p>In order to run the IFrame API, there are a few necessary requirements.
-					<br /><br />
-					These requirements are as follows:</p>
-					<ul>
+					<br /><br />Here is a sample HTML code that creates an embedded player that will load a video. Code explained below.</left></p>
+					<code><!DOCTYPE html>
+<html>
+  <body>
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="player"></div>
+
+    <script>
+      // 2. This code loads the IFrame Player API code asynchronously.
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '390',
+          width: '640',
+          videoId: 'M7lc1UVf-VE',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
+  </body>
+</html></code>					
+				<br /><div class="blackBar"></div><br />
+				<h4>Requirements</h4>
+				<p>In order to run the IFrame API, there are a few necessary requirements.
+				<br /><br />
+				These requirements are as follows:</p>
+				<ul>
 						<li>Your browser must be able to support the HTML5 <code>postMessage</code> feature. This feature allows for data messages to be sent between two windows/frames across domains.</li>
 						<li>YouTube requires that embedded videos have a viewport of at least 200px by 200px. That size does not include the control bar at the bottom, so beware of that when embedding videos. The Google recommended size of this is 480px wide by 270px tall.</li>
 						<li>The JavaScript function <code>onYouTubeIframeAPIReady</code> must be implemented on any page that runs the IFrame API. The <code>onYouTubeIframeAPIReady</code> function will be called when the page has finished downloading the JavaScript for this player API. This will allows the content within the API to be loaded.</li>
