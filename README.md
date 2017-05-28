@@ -237,7 +237,7 @@ function closeNav() {
 					<h3>Loading a Video</h3>
 				<p><left>Now that we have the basics down we can make adjustments to personalize the video player even more! Here is the code shown in #3 above but posted again to make it easier to follow.</left></p>	
 				
-				<img src="YouTubeAPILoadingVideoExample.png" alt="YouTubeAPIVideoExample" style="width:650px;height:800px;">
+				<img src="YouTubeAPILoadingVideoExample.png" alt="YouTubeAPIVideoExample" style="width:400px;height:400px;">
 
 				<div class="inner-body">
 				
