@@ -280,18 +280,19 @@ function closeNav() {
 				
 				<h4><li>Argument syntax</li><h4>
 				<code>
-				player.cueVideoById(videoId:String,
-               		     startSeconds:Number,
-               		     suggestedQuality:String):Void
+				 loadVideoById("bHQqvYy5KYo", 5, "large")
 			     </code>
 				<br/>
-				<li><h4>Object syntax</h4></li>
+				<h4><li>Object syntax</li></h4>
 			     <code>
-			     player.cueVideoById({videoId:String,
-                     startSeconds:Number,
-                     endSeconds:Number,
-                     suggestedQuality:String}):Void
+			     loadVideoById({'videoId': 'bHQqvYy5KYo',
+               'startSeconds': 5,
+               'endSeconds': 60,
+               'suggestedQuality': 'large'});
 		     </code>
+		     <p><left>The API supports the two different types of syntax. The first type, argument syntax, requires that the function arguments be listed in order. The second type, object syntax, lets you pass an object as a single parameter to define the properties and may support addition things that the argument syntax does not.
+		     <br/><br/>
+		     If you want to start the video 5 seconds in and not end it at a certain time then argument syntax is the way to go. If you want to start the video 5 seconds in and end it after 60 seconds then object syntax gives the option to do that.</left></p>
 
 				
 				
