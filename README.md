@@ -252,7 +252,7 @@ function closeNav() {
 					</tr>
 				</table>
 				<p><left>In simpler terms, the first parameter replaces it with the <code>iframe</code> element which contains the player. Keep in mind that this can also change the layout of the page if the parameter replaced has a different display style than the <code>iframe</code>.
-				<br/><br/>The second parameter is where all of the personalizing comes in. The object contains 5 properties:</left></p>
+				<br/><br/>The second parameter is where all of the personalizing comes in. The object contains 3 main properties:</left></p>
 				<table class="offset" border="1">
 					<tr>
 						<th>Property</th>
@@ -270,6 +270,7 @@ function closeNav() {
 						<td>This is the ID of the video that will play. It can be found at the end of the url. (Ex: for https://www.youtube.com/watch?v=0HTexqxo1og then "0HTexqxo1og" is the ID of the video.</td>
 					</tr>
 				</table>
+				<p><left>The <code>onPlayerReady</code> event ensures that the video will start when the page opens which is shown here by the video in the beginning.</left></p>
 				
 				<br /><div class="blackBar"></div><br />
 				
