@@ -278,14 +278,17 @@ function closeNav() {
 				<p><left>Now that we can get our video up and running what if we want to not play it immediately? For example wait 5 seconds to start the video. This is where functions come in. We will only touch briefly on this because it the information on this goes into great detail and we are looking more at the main idea.
 				<br/><br/>There are 2 types of syntax that make this happen.</left></p>
 				
-				1. Argument syntax
-				2. Object syntax
+				<li>Argument syntax</li>
+				<br/><br/>
+				<li>Object syntax</li>
+				<br/><br/>
 				
 				<code>
 				player.cueVideoById(videoId:String,
                		     startSeconds:Number,
                		     suggestedQuality:String):Void
 			     </code>
+			     <br/><br/>
 			     
 			     <code>
 			     player.cueVideoById({videoId:String,
