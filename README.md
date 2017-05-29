@@ -344,6 +344,8 @@ function closeNav() {
 						<td>This function loads the specified playlist and plays it. Again it takes an array of video ID’s with the optional parameter with <code>startSeconds</code> and <code>suggestedQuality</code>.</td>
 					</tr>
 				</table>
+				<div id="playbackControls"></div>
+
 				<h2>Playback Controls</h2>
 				<br/>
 				<h4>Playing a Video</h4>
