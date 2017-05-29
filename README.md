@@ -436,6 +436,9 @@ function closeNav() {
 
 				<table border="1">
 					<tr>
+					<th>Event Handlers</th>
+					</tr>
+					<tr>
 						<td><code class="chunk">onReady</code></td>
 						<td><code>onReady</code> This event fires whenever the player has finished loading. This event should be used for times when the player needs to do something as soon as it's ready, such as play when it is loaded or have information displayed about it.</td>
 
