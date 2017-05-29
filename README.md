@@ -343,7 +343,7 @@ function closeNav() {
 					</tr>
 				</table>
 				<h2>Playback Controls</h2>
-				<br/><br/>
+				<br/>
 				<h4>Playing a Video</h4>
 				<p><left>Up until now we have talked about getting the player set up with basic functions. Now we want to look at ways to customize how it plays the video. There are a lot of different options here. We also can look at what the final player state is after the function executes.</left></p>
 				<table class="offset" border="1">
@@ -382,6 +382,22 @@ function closeNav() {
 						<td>This function loads and plays the specified video in the playlist. Keep in mind you have to include an index parameter because you have to specify the index of the video that you want to play</td>
 				</table>
 				
+				<p><left>There are many more ways to personalize the video player but here are a few generally listed:</left></p>
+				<table class="offset">
+				<tr>
+					<th>Changing the Player Volume</th>
+				</tr>
+					<td>1. <code>player.mute():Void</code></td>
+				<tr>
+					<td>2. <code>player.unMute():Void</code></td>
+				</tr>
+					<td>3. <code>player.isMuted():Boolean</code></td>
+				<tr>
+					<td>4. <code>player.setVolume(volume:Number):Void</code></td>
+				</tr>
+					<td>5. <code>player.getVolume():Number</code></td>
+		</table>
+
 
 				
 				
