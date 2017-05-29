@@ -437,6 +437,7 @@ function closeNav() {
 				<table border="1">
 					<tr>
 					<th>Event Handlers</th>
+					<th>Description</th>
 					</tr>
 					<tr>
 						<td><code class="chunk">onReady</code></td>
