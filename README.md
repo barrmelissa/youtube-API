@@ -437,13 +437,13 @@ function closeNav() {
 				<table border="1">
 					<tr>
 						<td><code class="chunk">onReady</code></td>
-						<td><code>onReady</code> is pretty much what it sounds like. This event fires whenever the player has finished loading and is ready to be manipulated. This event should be used for times when the player needs to do something as soon as it's ready, such as play when it is loaded or have information displayed about it.</td>
+						<td><code>onReady</code> This event fires whenever the player has finished loading. This event should be used for times when the player needs to do something as soon as it's ready, such as play when it is loaded or have information displayed about it.</td>
 
 
 					</tr>
 					<tr>
 						<td><code class="chunk">onPlaybackQualityChange</code></td>
-						<td>This event fires when the quality of the video within the specified player changes. This can be triggered by two events, user changing the quality or sending <code>suggestedQuality</code> to this function. Note that it will only fire if the quality actually changes when the <code>suggestedQuality</code> function is called. The data associated with this event are:
+						<td>This event fires when the quality of the video within the specified player changes. This can be triggered by two events, user changing the quality or sending <code>suggestedQuality</code> to this function. It will only fire if the quality actually changes when the <code>suggestedQuality</code> function is called. The data associated with this event are:
 						<ul>
 							<li>small</li>
 							<li>medium</li>
@@ -482,8 +482,7 @@ function closeNav() {
 				<div class="inner-body">
 				
 				<center><div id="playerDiv"></div>
-				
-				<br /><br />
+				<br/>
 				
 				<p><left>The example video is shown at the top of the page!</left></p>
 				
