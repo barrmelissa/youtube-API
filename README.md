@@ -441,13 +441,13 @@ function closeNav() {
 					</tr>
 					<tr>
 						<td><code class="chunk">onReady</code></td>
-						<td><code>onReady</code> This event fires whenever the player has finished loading. This event should be used for times when the player needs to do something as soon as it's ready, such as play when it is loaded or have information displayed about it.</td>
+						<td><code>onReady</code> This event fires when a player has finished loading. A good example is playing the video automatically. As you can tell from the video when this website loaded, it has been coded with the onReady event.</td>
 
 
 					</tr>
 					<tr>
 						<td><code class="chunk">onPlaybackQualityChange</code></td>
-						<td>This event fires when the quality of the video within the specified player changes. This can be triggered by two events, user changing the quality or sending <code>suggestedQuality</code> to this function. It will only fire if the quality actually changes when the <code>suggestedQuality</code> function is called. The data associated with this event are:
+						<td>This event fires when the video playback quality changes. The data property value possible values are:
 						<ul>
 							<li>small</li>
 							<li>medium</li>
@@ -460,17 +460,17 @@ function closeNav() {
 					</tr>
 					<tr>
 						<td><code class="chunk">onPlaybackRateChange</code></td>
-						<td>This event fires if the rate of the video within the specified player changes. This is associated with the argument <code>suggestedRate</code>, and will change only if running this function with <code>suggestedRate</code> as a parameter returns a different rate than before.</td>
+						<td>This event fires whenever the video playback rate changes</td>
 					</tr>
 					<tr>
 						<td><code class="chunk">onError</code></td>
-						<td>This event fires if there is an error with the video in the specified player. The data associated with it is as follows:
+						<td>This event fires if an error occurs in the player. Here are a few possible errors that could occur:
 						<ul>
 							<li><b>2</b> - if the request contains an invalid parameter value</li>
 							<li><b>5</b> - any error associated with HTML5, such as the HTML5 player not supporting the video</li>
 							<li><b>100</b> - the video requested was not found</li>
 							<li><b>101</b> - the owner of the video does not allow it to be played in an embedded player</li>
-							<li><b>150</b> - same functionality as <b>101</b></li>
+							<li><b>150</b> - the error is the same as <b>101</b></li>
 						</ul>
 						</td>
 					</tr>
@@ -486,8 +486,6 @@ function closeNav() {
 				<div class="inner-body">
 				
 				<center><div id="playerDiv"></div>
-				<br/>
-				
 				<p><left>The example video is shown at the top of the page!</left></p>
 				
 				<br />
