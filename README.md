@@ -396,7 +396,30 @@ function closeNav() {
 					<td>4. <code>player.setVolume(volume:Number):Void</code></td>
 				</tr>
 					<td>5. <code>player.getVolume():Number</code></td>
-		</table>
+				</table>
+				
+				<table class="offset">
+				<tr>
+					<th>Setting the player size</th>
+				</tr>
+					<td>1. <code>player.setSize(width:Number, height:Number):Object</code></td>
+				</table>
+				<table class="offset">
+				<tr>
+					<th>Setting the playback rate</th>
+				</tr>
+					<td>1. <code>player.getPlaybackRate():Number</code></td>
+				</table>
+				
+				<h4>Playing a video - Playback Status</h4>
+				<p><left>Often the functions return a status which usually comes in the form of a number. Here are the possible values and what they mean.</left></p>
+				<li>-1 – unstarted</li>
+				<li>0 – ended</li>
+				<li>1 – playing</li>
+				<li>2 – paused</li>
+				<li>3 – buffering</li>
+				<li>5 – video cued<li>	
+
 
 
 				
