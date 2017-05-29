@@ -420,45 +420,22 @@ function closeNav() {
 				<li>3 – buffering</li>
 				<li>5 – video cued<li>	
 				
-				
-				
 		<!-- Events -->	
 		<div class="outer">
 			<div id="eventsPage"></div>
 				<div class="inner-heading">	
 					<h3><br />Event Handlers<br /><br /></h3>
 				</div>
-				<div class="inner-body">
-				
-				<h4>Introduction</h4>
-				
-				<p>There are certain events that are fired from the API to notify any changes made to the embedded YouTube video. These events can be added to the previously mentioned <code>YT.Player</code> object, or through <code>addEventListener</code>. Events are passed as objects, with these properties:
-				<ul>
-					<li><code>target</code>: This is the specified player the event is bound to.</li>
-					<li><code>data</code>: This is the data passed in, associated with the event.</li>
-				</ul>
-				<br />
-				The specific event handlers produced by the YouTube API are as follows:</p>
-				<br />
-				
+				<table class="offset" border="1">
+							
+				<p><left>Last thing to address is Events. At this point you should have a good understanding on how to get everything set up and personalized. There are many different types of events, all however are equally important.</left></p>
+
 				<table border="1">
 					<tr>
 						<td><code class="chunk">onReady</code></td>
 						<td><code>onReady</code> is pretty much what it sounds like. This event fires whenever the player has finished loading and is ready to be manipulated. This event should be used for times when the player needs to do something as soon as it's ready, such as play when it is loaded or have information displayed about it.</td>
-					</tr>
-					<tr>
-						<td><code class="chunk">onStateChange</code></td>
-						<td>This event fires whenever the state of the player changes. Unlike <code>onReady</code>, this event has several data value associated with it. They are:
-		
-						<ul>
-							<li>-1 (unstarted)</li>
-							<li>0 (ended)</li>
-							<li>1 (playing)</li>
-							<li>2 (paused)</li>
-							<li>3 (buffering)</li>
-							<li>5 (video cued)</li>
-						</ul>
-						Something to note about this event is that when a played first loads the video, the value is -1, likewise, when a player cues the video, the value is 5.</td>
+
+
 					</tr>
 					<tr>
 						<td><code class="chunk">onPlaybackQualityChange</code></td>
