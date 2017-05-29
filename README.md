@@ -317,74 +317,31 @@ function closeNav() {
 						<td>This function does the same thing as loadVideoById but uses an URL</td>
 					</tr>
 				</table>	
-				<br /><div class="blackBar"></div><br />
+				<p><left>You can even make functions for playlists! Both of the following functions allow you to play a playlist of videos. Each work a little differently and therefore have different properties.</left></p>
 				
-				<h4>Using the <code>&lt;iframe&gt;</code> element.</h4>
-				<p>Sample code for using the <code>&lt;iframe&gt;</code> element is:</p>
-				<br />
-				
-				
-				<code class="chunk">
-					&lt;iframe width="420" height="315" <br /> 
-					src="http://www.youtube.com/embed/XGSy3_Czz8k?autohide=1"&gt;<br />
-					&lt;/iframe&gt;
-				</code>
-				
-				<br /><br />
-				
-				<table class="offset" border="1">
+		     <table class="offset" border="1">
 					<tr>
-						<th>Parameter</th>
-						<th>Functionality</th>
+						<th>Function</th>
+						<th>Code</th>
+						<th>Description</th>
 					</tr>
-						<td><code class="chunk">width</code></td>
-						<td>refers to the width of the video player</td>
-					&lt;/tr&gt;
+						<td><code class="chunk">cuePlaylist</code></td>
+						<td><code>player.cuePlaylist(playlist:String|Array,
+                  				 index:Number,
+                 				  startSeconds:Number,
+						   suggestedQuality:String):Void</code></td>
+						<td>This function queues the specified playlist. It takes an array of YouTube video IDs and an optional parameter to play the first video in the playlist. Again you can customize it with the <code>startSeconds</code> and <code>suggestedQuality</code></td>
 					<tr>
-						<td><code class="chunk">height</code></td>
-						<td>refers to the height of the video player</td>
-					</tr>
-					<tr>
-						<td><code class="chunk">src</code></td>
-						<td>refers to the URL of the video</td>
+						<td><code class="chunk">loadPlaylist</code></td>
+						<td><code>player.loadPlaylist(playlist:String|Array,
+               				        index:Number,
+    				                startSeconds:Number,
+				         	suggestedQuality:String):Void</code></td>
+						<td>This function loads the specified playlist and plays it. Again it takes an array of video ID’s with the optional parameter with <code>startSeconds</code> and <code>suggestedQuality</code>.</td>
 					</tr>
 				</table>
-					
-				<p>There are also YouTube parameters that can be passed in. An example is shown within the code, as <code>autohide=1</code>. Listed below are commonly used YouTube parameters and their accepted values.</p>
 				
-				<ul>
-					<li>autohide
-						<ul>
-							<li>Value 0: video player controls always visible</li>
-							<li>Value 1: controls hide automatically when video starts</li>
-							<li>Value 2: If the player has 16:9 or 4:3 ratio, same as 1, otherwise same as 0</li>
-						</ul>
-					</li>
-					<li>autoplay
-						<ul>
-							<li>Value 0: video will not play automatically when video loads</li>
-							<li>Value 1: video will play automatically when video loads</li>
-						</ul>
-					</li>
-					<li>controls
-						<ul>
-							<li>Value 0: video player controls does not display; the video loads immediately</li>
-							<li>Value 1: video player controls display; the video loads immediately</li>
-							<li>Value 2: video layer controls display, but the video does not load before the user initiates playback</li>
-						</ul>
-					</li>
-					<li>loop
-						<ul>
-							<li>Value 0: the video will only play once</li>
-							<li>Value 1: the video will loop forever</li>
-						</ul>
-					</li>
-					<li>playlist
-						<ul>
-							<li>A comma separates the list of videos to play.</li>
-						</ul>
-					</li>
-				</ul>
+				
 				
 				<br /><div class="blackBar"></div><br />
 				
