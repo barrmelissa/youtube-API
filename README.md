@@ -419,10 +419,6 @@ function closeNav() {
 				<li>2 – paused</li>
 				<li>3 – buffering</li>
 				<li>5 – video cued<li>	
-
-
-
-				
 				
 				
 				
@@ -521,62 +517,6 @@ function closeNav() {
 		
 		<br /><br />
 		
-		<!-- Playback Controls -->	
-		<div class="outer">
-			<div id="playbackControls"></div>
-				<div class="inner-heading">	
-					<h3><br />Playback Controls<br /><br /></h3>
-				</div>
-				<div class="inner-body">
-				
-				<h4>Playing a video</h4>
-				
-				<p>The following functions deal with playing an embedded video.</p>
-				
-				<table border="1">
-					<tr>
-						<td><code class="chunk">player.playVideo()</code></td>
-						<td>Plays the video and leaves it in a state of playing (1).</td>
-					</tr>
-					<tr>
-						<td><code class="chunk">player.pauseVideo()</code></td>
-						<td>Pauses the video and leaves it in a state of paused (2), unless the video has ended, then it will not change from ended (0).</td>
-					</tr>
-					<tr>
-						<td><code class="chunk">player.stopVideo()</code></td>
-						<td>Stops the video and prevents further loading. This should be used on rare occasions, such as only allowing the user to view one video per player. This can leave the player in any state.</td>
-					</tr>
-					<tr>
-						<td><code class="chunk">player.seekTo()</code></td>
-						<td>Seeks to a specified point in the video, unless the video is paused, in which case it will remain paused. This function has two parameters:
-						<ul>
-							<li><code>seconds</code>: Tells the function where to seek ahead to.</li>
-							<li><code>allowSeekAhead</code>: This is a boolean that decides whether or not the video can seek to a portion that has not yet been loaded.</li>
-						</ul>
-						</td>
-					</tr>
-				</table>
-				
-				<h4>Some Useful Controls</h4>
-				<ul>
-					<li><code>player.mute()</code></li>
-					<li><code>player.unMute()</code></li>
-					<li><code>player.setVolume()</code></li>
-					<li><code>player.setSize()</code></li>
-					<li><code>player.setLoop()</code></li>
-					<li><code>player.setPlaybackRate()</code></li>
-					<li><code>player.setPlaybackQuality()</code></li>
-				</ul>
-				
-				<p>Other useful controls can be found on the API developer website. The ones depicted in this guide are some that are most commonly used.</p>
-				
-				</div>
-			
-			</div>
-		&lt;/div&gt;	
-		
-		<br /><br />
-
 		<!-- Embedded Video -->	
 		<div class="outer">
 			<div id="exampleVideo"></div>
