@@ -81,7 +81,7 @@ body {
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
     <a onclick="closeNav()" href="#aboutThisGuide">Introduction</a>
-    <a onclick="closeNav()" href="#embedVideo">Embedding a Video</a>
+    <a onclick="closeNav()" href="#embedVideo">How to interact with it</a>
     <a onclick="closeNav()" href="#queueFunctions">Queuing Functions</a>
     <a onclick="closeNav()" href="#eventsPage">Event Handlers</a>
     <a onclick="closeNav()" href="#playbackControls">Playback Controls</a>
@@ -274,6 +274,8 @@ function closeNav() {
 				</table>
 				<p><left>The <code>onPlayerReady</code> event ensures that the video will start when the page opens which is shown here by the video in the beginning.</left></p>
 				
+			<div id="queueFunctions"></div>
+
 				<h2>Functions</h2>
 				<h4>Queueing Functions</h4>
 				
@@ -484,6 +486,6 @@ function closeNav() {
 				<p><left>The example video is shown at the top of the page!</left></p>
 				
 				<br />
-
-				</div>
-			
+				
+				
+				
