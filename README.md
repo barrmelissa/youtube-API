@@ -342,55 +342,51 @@ function closeNav() {
 						<td>This function loads the specified playlist and plays it. Again it takes an array of video ID’s with the optional parameter with <code>startSeconds</code> and <code>suggestedQuality</code>.</td>
 					</tr>
 				</table>
+				<h2>Playback Controls</h2>
+				<br/><br/>
+				<h4>Playing a Video</h4>
+				<p><left>Up until now we have talked about getting the player set up with basic functions. Now we want to look at ways to customize how it plays the video. There are a lot of different options here. We also can look at what the final player state is after the function executes.</left></p>
+				<table class="offset" border="1">
+					<tr>
+						<th>Function</th>
+						<th>Description</th>
+						<th>Final Player State</th>
+					</tr>
+						<td><code class="chunk">player.playVideo():Void</code></td>
+						<td>Plays the currently cued video</td>
+						<td><code>playing</code>(1)</td>
+					<tr>
+						<td><code class="chunk">player.pauseVideo():Void</code></td>
+						<td>Pauses the currently playing video</td>
+						<td><code>paused</code>(2)</td>
+					</tr>
+					<tr>
+						<td><code class="chunk">player.stopVideo():Void</code></td>
+						<td>Stops video and stops loading of the video. Warning: This function is not used often and should only be used when you know the user will not be watching any additional videos in the player</td>
+						<td>Can put the player into any non-playing state</td>
+					</tr>
+				</table>
+				<h4>Playing a video - Playlist</h4>
+				<table class="offset" border="1">
+					<tr>
+						<th>Function</th>
+						<th>Description</th>
+					</tr>
+						<td><code class="chunk">player.nextVideo():Void</code></td>
+						<td>This function loads and plays the next video in the playlist. It can even be set to continuously loop or just end</td>
+					<tr>
+						<td><code class="chunk">player.previousVideo():Void</code></td>
+						<td>This function load and plays the previous video in the playlist. Again can be set to a loop</td>
+					</tr>
+						<td><code class="chunk">player.playVideoAt(index:Number):Void</code></td>
+						<td>This function loads and plays the specified video in the playlist. Keep in mind you have to include an index parameter because you have to specify the index of the video that you want to play</td>
+				</table>
 				
-				<br /><div class="blackBar"></div><br />
+
 				
-				<h4>Playlists</h4>
 				
-				<p>Much like single videos, there are two functions for playlists, <code>cuePlaylist</code> and <code>loadPlaylist</code>. The main difference between playlists and single videos is that, instead of a single URL/ID, an array of URL's/ID's must be passed as an argument. The argument syntax varies slightly more than the object syntax, so they will be explained individually.</p>
 				
-				<p><b>Argument Syntax</b><br /><br />
-				<code class="chunk">player.cuePlaylist(playlist:String|Array,<br />
-                &nbsp;&nbsp;&nbsp;index:Number,<br />
-                &nbsp;&nbsp;&nbsp;startSeconds:Number,<br />
-                &nbsp;&nbsp;&nbsp;suggestedQuality:String):Void<br /><br /></code>
 				
-				<ul>
-					<li><code>playlist</code>: This parameter is an array of YouTube video ID's. This parameter is required.</li>
-					<li><code>index</code>: This parameter tells the player which video to play first. Much like arrays, the first index is 0, which is the default beginning of the playlist. This parameter is optional.</li>
-					<li><code>startSeconds</code>: This parameter decides where the first video will begin playing from. This parameter is optional.</li>
-					<li><code>suggestedQuality</code>: This parameter specifies the suggested quality the video should be played at. This parameter is optional.</li>
-				</ul>
-				
-				To reduce redundancy, the explanation for the <code>loadPlaylist</code> argument syntax will be omitted. The only difference between the two functions is that <code>cuePlaylist</code> only queues the playlist, while <code>loadPlaylist</code> loads and plays the playlist.</p>
-				
-				<br />
-				
-				<p><b>Object Syntax</b><br /><br />
-				<code class="chunk">player.cuePlaylist({listType:String,<br />
-                &nbsp;&nbsp;&nbsp;list:String, <br />
-                &nbsp;&nbsp;&nbsp;index:Number, <br />
-                &nbsp;&nbsp;&nbsp;startSeconds:Number,<br />
-                &nbsp;&nbsp;&nbsp;suggestedQuality:String}):Void<br /><br /></code>
-				
-				<ul>
-					<li><code>listType</code>: This parameter specifies the type of results feed that are being retrieved. The accepted value are <code>playlist</code>, <code>search</code>, and <code>user_uploads</code>. The default argument of this parameter is <code>playlist</code>.</li>
-					<li><code>list</code>:
-					<li><code>index</code>: This parameter tells the player which video to play first. Much like arrays, the first index is 0, which is the default beginning of the playlist. This parameter is optional.</li>
-					<li><code>startSeconds</code>: This parameter decides where the first video will begin playing from. This parameter is optional.</li>
-					<li><code>suggestedQuality</code>: This parameter specifies the suggested quality the video should be played at. This parameter is optional.</li>
-				&lt;/ul&gt;
-				
-				To reduce redundancy, the explanation for the <code>loadPlaylist</code> object syntax will be omitted. The only difference between the two functions is that <code>cuePlaylist</code> only queues the playlist, while <code>loadPlaylist</code> loads and plays the playlist.&lt;/p&gt;
-				
-				<br />
-				&lt;/div&gt;
-			
-			&lt;/div&gt;
-		&lt;/div&gt;	
-		
-		<br /><br />
-		
 		<!-- Events -->	
 		<div class="outer">
 			<div id="eventsPage"></div>
