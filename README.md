@@ -230,6 +230,8 @@ function closeNav() {
 	<br/><br/>While the previous function gets the video ready to play, the <code>onPlayerReady</code> function plays the video when it is ready. Again, this depends on the settings you have programmed it to.
 	<br/><br/>Lastly #5 is all about changing the state of the player. The <code>onPlayerStateChange</code> function is for when the state of the player changes. This includes any of the 6 ways to personalize the video player shown in the introduction as well as more!
 	<br/><br/>In this example specifically, you can see the number 6000. This means that the video will start playing and after 6 seconds the video will call the function <code>stopVideo()</code> and the player will stop it. As you can see from the video playing at the top of the website, it does not have this restriction on it because it is able to play throughout the whole video.</left></p>
+			<h4>JavaScript</h4>
+		<p><left>All of the research I have done shows that using the HTML iFrame code is the easiest and fastest option however there is the JavaScript route as well. In fact the HTML code actually loads the Iframe player API JavaScript code so they make it very convenient when trying to embed a video. In fact you need to have it load this because you have to use JavaScript in order to control the player. The onYouTubeIframeAPIReady function is what is called when the page has finished downloading the JavaScript for the player API.</left></p>
 				<br /><div class="blackBar"></div><br />			
 		<div class="outer">
 			<div id="embedVideo"></div>
